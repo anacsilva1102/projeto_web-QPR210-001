@@ -8,8 +8,33 @@
 <body>
     <div id="div-form">
         <h3>Formulário</h3>
-        
 
+        <form name="form" id="form" method="post">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" class="input-vlr01" maxlength="30" required placeholder="Informe o NOME">
+
+            <label for="cpf">CPF</label>
+            <input type="number" name="cpf" id="cpf" class="input-vlr02" maxlength="14" required placeholder="Informe o CPF">
+
+            <label for="datanascimento">Data Nascimento</label>
+            <input type="date" name="datanascimento" id="datanascimento" class="input-vlr02" required>
+
+            <label for="sexo">Sexo</label>
+            <input type="radio" name="sexo" id="sexoM" class="input-op" value="M"> Masculino
+            <input type="radio" name="sexo" id="sexoF" class="input-op" value="F"> Feminino
+            <input type="radio" name="sexo" id="sexoN" class="input-op" value="N"> Não Declarar
+
+            <label for="preferenciais">Preferênciais</label>
+            <input type="checkbox" name="estudo" id="estudo" class="input-op" value="estudo"> Estudo
+            <input type="checkbox" name="trabalho" id="trabalho" class="input-op" value="trabalho"> Trabalho
+            <input type="checkbox" name="viagem" id="viagem" class="input-op" value="viagem"> viagem
+            <input type="checkbox" name="compras" id="compras" class="input-op" value="compras"> Compras
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" class="input-vlr02" maxlength="6" required placeholder="Informe a SENHA">
+
+
+        </form>
 
     </div>
     
