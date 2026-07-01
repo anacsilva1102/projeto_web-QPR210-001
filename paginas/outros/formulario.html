@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto WEB HTML</title>
+    <link rel="stylesheet" href="../">
 </head>
 <body>
     <div id="div-form">
@@ -32,6 +33,28 @@
 
             <label for="senha">Senha</label>
             <input type="password" name="senha" id="senha" class="input-vlr02" maxlength="6" required placeholder="Informe a SENHA">
+
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado" class="input-vlr02" required>
+                <option>Selecione um Estado</option>
+                <option value="Al">Alagoas</option>
+                <option value="Ba">Bahia</option>
+                <option value="Ce">Ceará</option>
+                <option value="Ma">Maranhão</option>
+                <option value="Pb">Paraiba</option>
+                <option value="Pe">Pernambuco</option>
+                <option value="Pi">Piaui</option>
+                <option value="RN"> Rio Grande do Norte</option>
+                <option value="Se">Sergipe</option>
+            </select>
+
+            <label for="comentario">Comentário</label>
+            <textarea name="comentario" id="comentario" placeholder="Informe seu COMENTÁRIO" required></textarea>
+
+           <button type="submit" id="btn-enviar">Enviar</button>
+           <button type="reset" id="btn-limpar">Limpar</button>
+           <button id="btn">Botão</button>
+
 
 
         </form>
