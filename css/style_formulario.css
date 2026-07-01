@@ -3,7 +3,7 @@
     min-height: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: blueviolet;
+    background-color: rgb(191, 142, 236);
     border-radius: 8px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -18,3 +18,11 @@ h3{
     background-color: aliceblue;
     padding: 10px;
 }
+
+label{
+    display: block;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
